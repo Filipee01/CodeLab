@@ -2,7 +2,7 @@ import { Heart } from "lucide-react";
 
 const Cards = ({ data, title, paragraph, isFilled }) => {
   return (
-    <div className="w-[327px] h-[330px] my-10 mx-6 flex flex-col border-2 rounded-md border-brand_color">
+    <div className="w-[327px] h-[330px] my-10 mx-14 flex flex-col border-2 rounded-md border-brand_color">
       <div className="mt-[32px] mb-4 mx-[28px] flex justify-between items-center">
         <span className="font-serif text-sm text-brand_color">{data}</span>
         <p className="text-brand_color">
