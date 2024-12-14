@@ -3,7 +3,7 @@ import Cards from "./components/Cards";
 
 function App() {
   return (
-    <div className="w-[450px] h-[1348px] bg-dark_10">
+    <div className="w-[375px] h-[1348px] bg-dark_10">
       <Header />
       <Cards
         data="17 de ago, 2024"
